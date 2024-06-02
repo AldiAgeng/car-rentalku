@@ -1,0 +1,263 @@
+/* MY CSS */
+
+/* setting all font */
+body {
+  font-family: Helvetica !important;
+  font-style: normal !important;
+}
+/* End setting all font */
+
+/* Setting font p */
+p {
+  font-weight: 300 !important;
+  font-size: 14px !important;
+  line-height: 1.25rem !important;
+}
+/* End setting font p */
+
+/* Setting font h3 */
+h3 {
+  font-weight: bold !important;
+  font-size: 1.5rem !important;
+  line-height: 36px !important;
+}
+/* End setting font h3 */
+
+/* Icon-check */
+.icon-check {
+  background-color: #cfd4ed;
+  border-radius: 50%;
+  color: #0d28a6;
+  padding: 5px;
+  font-size: 16px;
+}
+/* End icon-check */
+
+/* btn-light-green */
+.btn-light-green {
+  background-color: #5cb85f !important;
+  color: #ffffff !important;
+  border-radius: 2px !important;
+}
+/* End btn light green */
+
+/* Navbar */
+.navbar {
+  background-color: #f1f3ff;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    color: black !important;
+    font-size: 14px !important;
+    margin: 0 10px 0 10px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+  }
+}
+.nav-link {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #000000 !important;
+}
+/* End navbar */
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: #f1f3ff;
+  height: 400px;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+@media screen and (min-width: 1285px) {
+  .img-car {
+    margin-left: 100px !important;
+    width: 704px !important;
+    height: 407px !important;
+  }
+}
+/* End */
+
+/* Services */
+
+.services li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* End */
+
+@media screen and (max-width: 576px) {
+  .services img {
+    width: 15rem;
+  }
+  .services {
+    margin-top: 140px;
+  }
+}
+
+/* Why US */
+@media screen and (min-width: 767px) {
+  .card {
+    width: 18rem;
+  }
+}
+/* End */
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* End */
+
+/* Testi */
+/* Owl Carousel */
+
+@media screen and (max-width: 576px) {
+  .owl-carousel .item {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .owl-carousel .item .bintang {
+    text-align: center;
+  }
+
+  .owl-carousel .item img {
+    width: 5rem;
+    margin: auto;
+  }
+}
+
+.item {
+  background-color: #f1f3ff;
+  padding: 50px 30px;
+  border-radius: 8px;
+  min-width: 400px;
+}
+/* End */
+
+.testi button {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 6px;
+  margin: 2px;
+  background-color: #5cb85f;
+}
+/* End */
+
+.testi button.btn-left {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+}
+/* End */
+
+.testi .star {
+  font-size: 30px;
+  color: #f9cc00;
+}
+/* End */
+
+/* Getting Started */
+
+@media screen and (max-width: 576px) {
+  .getting-started .item-jumbo {
+    height: 25rem;
+  }
+}
+
+.item-jumbo {
+  border-radius: 20px;
+  background-color: #0d28a6;
+  color: #ffffff;
+  height: 326px;
+}
+/* End */
+
+.getting-started h2 {
+  font-weight: bold;
+  line-height: 150%;
+}
+/* End */
+
+/* FAQ */
+.faq .accordion button {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.faq .accordion-body {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* End */
+
+@media screen and (min-width: 1285px) {
+  .filter-cars {
+    margin-top: -140px;
+  }
+}
+
+.filter-cars .card {
+  width: 1275px;
+}
+
+.filter-cars .card .search-btn {
+  margin-top: 38px;
+}
+
+/* remove arrow di input number jumlah penumpang */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#waktu-jemput {
+  background: url("../img/clock.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+#jumlah-penumpang {
+  background: url("../img/people.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+/* login pages */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+}

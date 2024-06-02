@@ -1,0 +1,13 @@
+import NavigationBar from "./NavigationBar";
+import IntroJumbotron from "./IntroJumbotron";
+import OurServices from "./OurServices";
+import WhyUs from "./WhyUs";
+import Testimonial from "./Testimonial";
+import GettingStarted from "./GettingStarted";
+import FAQ from "./FAQ";
+import Footer from "./Footer";
+import FilterCars from "./FilterCars";
+import HeaderBar from "./dashboard/HeaderBar";
+import CardCars from "./CardCars";
+import CardCarsDashboard from "./dashboard/CardCarDashboard";
+export { NavigationBar, IntroJumbotron, OurServices, WhyUs, Testimonial, GettingStarted, FAQ, Footer, FilterCars, HeaderBar, CardCarsDashboard, CardCars };
